@@ -1,4 +1,4 @@
-In this project, let's build a **Stopwatch** by applying the concepts we have learned till now.
+Building a React **Stopwatch** .
 
 ### Refer to the image below:
 
@@ -27,22 +27,7 @@ In this project, let's build a **Stopwatch** by applying the concepts we have le
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- When the **Start** button is clicked, then the Stopwatch should start running
-- When the **Stop** button is clicked, then the Stopwatch should stop running
-- When the **Reset** button is clicked, then the Stopwatch should be reset to zero
-</details>
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
 
 Use these files to complete the implementation:
 
@@ -56,7 +41,7 @@ Use these files to complete the implementation:
 <summary>Click to view</summary>
 <br>
 
-- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
+- Used the `box-shadow` CSS property to apply the box-shadow effect to containers
 
   ```
     box-shadow: 0px 4px 16px 0px #bfbfbf;
@@ -65,7 +50,7 @@ Use these files to complete the implementation:
   <br/>
   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
 
-- You can use `Math.floor()` function that returns the **largest integer less than or equal to a given number**
+- Used `Math.floor()` function that returns the **largest integer less than or equal to a given number**
 
   ```js
   console.log(Math.floor(5.95)); // output: 5
@@ -102,9 +87,8 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
+> ### _Things not to change_
 >
 > - All components you implement should go in the `src/components` directory.
 > - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
